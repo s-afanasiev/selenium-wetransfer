@@ -1,7 +1,7 @@
-const Selenium = require('./selenium_wetransfer');
+const Selenium = require('./selenium_wetransfer.js');
 
-const reference = process.argv[2] "";
-const download_path = process.argv[3] || "./";
+const reference = process.argv[2] || "https://we.tl/t-oOPL90fzI7";
+const download_path = process.argv[3] ;
 
 console.log("reference = ", reference );
 console.log("download_path = ", download_path );
